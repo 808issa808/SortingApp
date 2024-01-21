@@ -65,3 +65,20 @@
 [05:01:11.532] [main] INFO  com.example.MyLogger - 1 value cannot be sorted
 [05:01:11.533] [main] INFO  com.example.MyLogger - up to 10, means 2 to 9 not less not more
 [05:01:11.533] [main] INFO  com.example.MyLogger - No arguments provided.
+[14:56:36.842] [main] INFO  com.example.MyLogger - 1 value cannot be sorted
+[14:56:36.846] [main] INFO  com.example.MyLogger - up to 10, means 2 to 9 not less not more
+[14:56:36.847] [main] INFO  com.example.MyLogger - No arguments provided.
+[14:56:36.848] [main] INFO  com.example.MyLogger - 1 value cannot be sorted
+[14:56:36.850] [main] INFO  com.example.MyLogger - up to 10, means 2 to 9 not less not more
+[14:56:36.851] [main] INFO  com.example.MyLogger - No arguments provided.
+[14:56:36.852] [main] INFO  com.example.MyLogger - 1 value cannot be sorted
+[14:56:36.854] [main] INFO  com.example.MyLogger - up to 10, means 2 to 9 not less not more
+[14:56:36.854] [main] INFO  com.example.MyLogger - No arguments provided.
+[15:08:33.682] [main] INFO  com.example.MyLogger - 1 value cannot be sorted
+[15:08:33.685] [main] INFO  com.example.MyLogger - up to 10, means 2 to 9 not less not more
+[15:08:33.686] [main] INFO  com.example.MyLogger - No arguments provided.
+[15:09:02.329] [main] INFO  com.example.MyLogger - No arguments provided.
+[15:09:12.525] [main] INFO  com.example.MyLogger - No arguments provided.
+[15:09:29.283] [main] INFO  com.example.MyLogger - 1 value cannot be sorted
+[15:09:29.288] [main] INFO  com.example.MyLogger - up to 10, means 2 to 9 not less not more
+[15:09:29.290] [main] INFO  com.example.MyLogger - No arguments provided.

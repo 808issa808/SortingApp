@@ -8,6 +8,7 @@ import java.util.Arrays;
  * This class does all job
  * it reads and process args
  * covers corner cases
+ *
  * @author real_issa
  */
 public class Handler {
@@ -17,10 +18,12 @@ public class Handler {
      * which sorts given arguments
      * and outprints sorted arguments
      * has checks corner cases and catches exceptions
+     *
      * @param args is arguments that come from cli command
      */
     private static final Logger logger = MyLogger.getLogger();
-    public void handle(String[] args){
+
+    public void handle(String[] args) {
 
         if (args.length == 0) {
             System.out.println("No arguments provided.");
