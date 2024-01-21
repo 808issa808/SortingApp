@@ -35,9 +35,9 @@ public class Handler {
             logger.info("1 value cannot be sorted");
             return;
         }
-        if (args.length >= 10) {
-            System.out.println("up to 10, means 2 to 9 not less not more");
-            logger.info("up to 10, means 2 to 9 not less not more");
+        if (args.length > 10) {
+            System.out.println("up to 10, means 2 to 10 not less not more");
+            logger.info("up to 10, means 2 to 10 not less not more");
             return;
         }
 

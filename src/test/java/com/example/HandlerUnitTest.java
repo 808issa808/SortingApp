@@ -33,10 +33,10 @@ public class HandlerUnitTest {
     }
 
     @Test
-    public void handleTenPlusArgs() {
+    public void handleTenMoreArgs() {
         Handler handler = new Handler();
         handler.handle(new String[]{"1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1"});
-        assertTrue(systemOutRule.getLog().contains("up to 10, means 2 to 9 not less not more"));
+        assertTrue(systemOutRule.getLog().contains("up to 10, means 2 to 10 not less not more"));
     }
 
     @Test
