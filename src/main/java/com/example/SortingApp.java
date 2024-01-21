@@ -1,6 +1,5 @@
 package com.example;
 
-import java.util.Arrays;
 
 /**
  * Main class of app
