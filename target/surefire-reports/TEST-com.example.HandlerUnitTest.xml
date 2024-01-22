@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.HandlerUnitTest" time="0.55" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.HandlerUnitTest" time="0.416" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="KZ"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/21.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/real_issa/IdeaProjects/EpamProjects/SortingApp/target/surefire/surefirebooter-20240122104756598_3.jar /Users/real_issa/IdeaProjects/EpamProjects/SortingApp/target/surefire 2024-01-22T10-47-56_537-jvmRun1 surefire-20240122104756598_1tmp surefire_0-20240122104756598_2tmp"/>
+    <property name="sun.java.command" value="/Users/real_issa/IdeaProjects/EpamProjects/SortingApp/target/surefire/surefirebooter-20240122121840138_3.jar /Users/real_issa/IdeaProjects/EpamProjects/SortingApp/target/surefire 2024-01-22T12-18-40_077-jvmRun1 surefire-20240122121840138_1tmp surefire_0-20240122121840138_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/real_issa/IdeaProjects/EpamProjects/SortingApp/target/test-classes:/Users/real_issa/IdeaProjects/EpamProjects/SortingApp/target/classes:/Users/real_issa/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/real_issa/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/real_issa/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/real_issa/.m2/repository/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar:/Users/real_issa/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/real_issa/.m2/repository/com/github/stefanbirkner/system-rules/1.19.0/system-rules-1.19.0.jar:"/>
@@ -29,7 +29,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/real_issa/IdeaProjects/EpamProjects/SortingApp/target/surefire/surefirebooter-20240122104756598_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/real_issa/IdeaProjects/EpamProjects/SortingApp/target/surefire/surefirebooter-20240122121840138_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="21.0.1"/>
@@ -58,23 +58,27 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="handleSingleArgs" classname="com.example.HandlerUnitTest" time="0.513">
+  <testcase name="handleSingleArgs" classname="com.example.HandlerUnitTest" time="0.378">
     <system-out><![CDATA[1 value cannot be sorted
-[10:47:57.336] [main] INFO  com.example.MyLogger - 1 value cannot be sorted
+[12:18:40.753] [main] INFO  com.example.MyLogger - 1 value cannot be sorted
 ]]></system-out>
   </testcase>
-  <testcase name="handleTenMoreArgs" classname="com.example.HandlerUnitTest" time="0.001">
+  <testcase name="handleTenMoreArgs" classname="com.example.HandlerUnitTest" time="0.002">
     <system-out><![CDATA[up to 10, means 2 to 10 not less not more
-[10:47:57.340] [main] INFO  com.example.MyLogger - up to 10, means 2 to 10 not less not more
+[12:18:40.757] [main] INFO  com.example.MyLogger - up to 10, means 2 to 10 not less not more
 ]]></system-out>
   </testcase>
-  <testcase name="handleWrongArgs" classname="com.example.HandlerUnitTest" time="0.0">
+  <testcase name="handleTenArgs" classname="com.example.HandlerUnitTest" time="0.0">
+    <system-out><![CDATA[Sorted numbers: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+]]></system-out>
+  </testcase>
+  <testcase name="handleWrongArgs" classname="com.example.HandlerUnitTest" time="0.001">
     <system-out><![CDATA[Invalid argument: 2kmcsd1
 ]]></system-out>
   </testcase>
-  <testcase name="handleZeroArgs" classname="com.example.HandlerUnitTest" time="0.002">
+  <testcase name="handleZeroArgs" classname="com.example.HandlerUnitTest" time="0.001">
     <system-out><![CDATA[No arguments provided.
-[10:47:57.342] [main] INFO  com.example.MyLogger - No arguments provided.
+[12:18:40.760] [main] INFO  com.example.MyLogger - No arguments provided.
 ]]></system-out>
   </testcase>
 </testsuite>

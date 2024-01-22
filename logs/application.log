@@ -115,3 +115,6 @@
 [10:47:57.336] [main] INFO  com.example.MyLogger - 1 value cannot be sorted
 [10:47:57.340] [main] INFO  com.example.MyLogger - up to 10, means 2 to 10 not less not more
 [10:47:57.342] [main] INFO  com.example.MyLogger - No arguments provided.
+[12:18:40.753] [main] INFO  com.example.MyLogger - 1 value cannot be sorted
+[12:18:40.757] [main] INFO  com.example.MyLogger - up to 10, means 2 to 10 not less not more
+[12:18:40.760] [main] INFO  com.example.MyLogger - No arguments provided.

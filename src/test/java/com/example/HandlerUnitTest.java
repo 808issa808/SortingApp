@@ -40,6 +40,13 @@ public class HandlerUnitTest {
     }
 
     @Test
+    public void handleTenArgs() {
+        Handler handler = new Handler();
+        handler.handle(new String[]{"10", "9", "8", "7", "6", "5", "4", "2", "3", "1"});
+        assertTrue(systemOutRule.getLog().contains("Sorted numbers: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"));
+    }
+
+    @Test
     public void handleWrongArgs() {
         Handler handler = new Handler();
         handler.handle(new String[]{"21", "2kmcsd1"});
